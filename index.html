@@ -205,6 +205,21 @@
       <h2>Пет-проекты</h2>
 
       <article class="proj">
+        <div class="proj-head"><h3>QualityDataAnalysis</h3><span class="date">2026</span></div>
+        <p class="sub">Система мониторинга деловых СМИ и проверки контрагентов</p>
+        <ul>
+          <li>Спроектировал решение по Clean Architecture на .NET 10: Domain, Infrastructure, Web, Api, Test и настольное приложение на WPF</li>
+          <li>Разработал веб-приложение на Blazor Server: живой поиск по изданиям, темы мониторинга, справочник компаний и аналитика с графиками на SVG</li>
+          <li>Реализовал полнотекстовый поиск в PostgreSQL (tsvector, GIN-индекс, русский словарь) с учётом форм слов и подсветкой совпадений</li>
+          <li>Сделал конструктор булевых запросов (обязательные слова, группы «хотя бы одно из», исключения) с компиляцией в tsquery</li>
+          <li>Написал сборщики публикаций: RSS на AngleSharp, Telegram-каналы через MTProto (WTelegramClient), догрузку архива по карте сайта</li>
+          <li>Интегрировал Dadata для проверки компаний по ИНН и ОГРН с кэшированием ответов, Minimal API с OpenAPI и фоновыми hosted-сервисами</li>
+          <li>Покрыл домен и репозитории 162 unit-тестами на NUnit, настроил аутентификацию на ASP.NET Identity с подтверждением почты</li>
+        </ul>
+        <div class="stack"><span class="chip">.NET 10</span><span class="chip">Blazor Server</span><span class="chip">Minimal API</span><span class="chip">PostgreSQL</span><span class="chip">EF Core</span><span class="chip">Clean Architecture</span><span class="chip">AngleSharp</span><span class="chip">WPF</span><span class="chip">NUnit</span></div>
+      </article>
+
+      <article class="proj">
         <div class="proj-head"><h3>QualityGoods</h3><span class="date">2025 — 2026</span></div>
         <p class="sub">Веб-приложение для мониторинга и сравнения цен на комплектующие ПК</p>
         <ul>
